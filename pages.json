@@ -1,0 +1,260 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/index",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/gongfu",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/tabBar/ranking",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/team",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/mine",
+			"style": {
+				// "navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tab1/share",
+			"style": {
+				"navigationBarTitleText": "我的推广"
+			}
+		},
+		{
+			"path": "pages/tab1/recharge/index",
+			"style": {
+				// "navigationBarTitleText": "充值"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/tab1/recharge/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/tab1/recharge/rechargelog",
+			"style": {
+				"navigationBarTitleText": "充值明细"
+			}
+		},
+
+		{
+			"path": "pages/tab1/chat",
+			"style": {
+				"navigationBarTitleText": "共富群聊"
+			}
+		},
+		{
+			"path": "pages/tab1/kefu",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/tab1/policy",
+			"style": {
+				"navigationBarTitleText": "共富政策"
+			}
+		},
+		{
+			"path": "pages/tab1/userNeedKnow",
+			"style": {
+				"navigationBarTitleText": "共富协议"
+			}
+		},
+		{
+			"path": "pages/tab1/sign",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		{
+			"path": "pages/tab1/notice",
+			"style": {
+				"navigationBarTitleText": "站内消息"
+			}
+		},
+		{
+			"path": "pages/tab1/news/info",
+			"style": {
+				"navigationBarTitleText": "中国共富"
+			}
+		},
+		{
+			"path": "pages/tab1/news/msgInfo",
+			"style": {
+				"navigationBarTitleText": "中国共富"
+			}
+		},
+		{
+			"path": "pages/tab5/level",
+			"style": {
+				"navigationBarTitleText": "共富等级"
+			}
+		},
+		{
+			"path": "pages/tab5/bill",
+			"style": {
+				"navigationBarTitleText": "账户资金流水"
+			}
+		},
+		{
+			"path": "pages/tab5/digitalwallet",
+			"style": {
+				"navigationBarTitleText": "数字人民币"
+			}
+		},
+		{
+			"path": "pages/tab5/myinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/tab5/withdrawal",
+			"style": {
+				"navigationBarTitleText": "账户提现"
+			}
+		},
+		{
+			"path": "pages/tab5/zhuanzhang",
+			"style": {
+				"navigationBarTitleText": "账户转账"
+			}
+		},
+		{
+			"path": "pages/tab5/withdrawalaccount",
+			"style": {
+				"navigationBarTitleText": "绑定提现账户"
+			}
+		},
+		{
+			"path": "pages/tab5/bindAccount",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡"
+			}
+		},
+		{
+			"path": "pages/tab5/accountSafe",
+			"style": {
+				"navigationBarTitleText": "账户安全"
+			}
+		},
+		{
+			"path": "pages/tab5/editPassword",
+			"style": {
+				"navigationBarTitleText": "修改登录密码"
+			}
+		},
+		{
+			"path": "pages/tab5/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/tab5/house",
+			"style": {
+				"navigationBarTitleText": "安居房(户口)申请"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tab5/realname",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "中国共富",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#a92532",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/indexActive.png",
+				"text": "%tabbar.text1%"
+			},
+			{
+				"pagePath": "pages/tabBar/gongfu",
+				"iconPath": "static/tabs/gongfu.png",
+				"selectedIconPath": "static/tabs/gongfuActive.png",
+				"text": "%tabbar.text2%"
+			},
+			{
+				"pagePath": "pages/tabBar/ranking",
+				"iconPath": "static/tabs/ranking.png",
+				"selectedIconPath": "static/tabs/rankActive.png",
+				"text": "%tabbar.text3%"
+			},
+			{
+				"pagePath": "pages/tabBar/team",
+				"iconPath": "static/tabs/team.png",
+				"selectedIconPath": "static/tabs/teamActive.png",
+				"text": "%tabbar.text4%"
+			},
+			{
+				"pagePath": "pages/tabBar/mine",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mineActive.png",
+				"text": "%tabbar.text5%"
+			}
+		]
+	}
+}

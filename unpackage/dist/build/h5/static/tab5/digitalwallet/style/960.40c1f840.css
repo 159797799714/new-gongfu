@@ -1,0 +1,182 @@
+.wallet {
+	height: 100%;
+	background: url(/static/tab5/digitalwallet/wallet-bg.ad620697.png) no-repeat;
+	background-size: 100% 100%;
+	background-size: cover
+}
+
+.wallet,
+.wallet-top {
+	width: 100%;
+	overflow: hidden
+}
+
+.wallet-top {
+	height: 92vw;
+	background: none;
+	background-size: 100% 100%
+}
+
+.wallet-top-msg {
+	width: 100%;
+	margin: 10px auto;
+	color: #fff
+}
+
+.wallet-content[data-v-d7962c82] {
+	width: 100%;
+	padding-bottom: 100px
+}
+
+.wallet-content .wallet-content-2[data-v-d7962c82] {
+	width: 70%;
+	margin: 0 auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px
+}
+
+.wallet-content .wallet-content-2 .wallet-tips[data-v-d7962c82] {
+	margin: 40px auto
+}
+
+.wallet-content .wallet-content-2 .wallet-tips .wallet-title[data-v-d7962c82] {
+	color: #141414;
+	font-size: 16px;
+	font-weight: 600
+}
+
+.wallet-content .wallet-content-2 .wallet-tips .van-icon-closed-eye[data-v-d7962c82],
+.wallet-content .wallet-content-2 .wallet-tips .van-icon-eye[data-v-d7962c82] {
+	padding-left: 6px
+}
+
+.wallet-content .wallet-content-2 .wallet-money[data-v-d7962c82] {
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+.wallet-content .wallet-content-2 .wallet-money .money-icon[data-v-d7962c82] {
+	font-size: 20px
+}
+
+.wallet-content .wallet-content-2 .wallet-money .money-money[data-v-d7962c82] {
+	font-size: 26px
+}
+
+.wallet-content .wallet-content-2 .wallet-button[data-v-d7962c82] {
+	display: inline-block;
+	width: 100%
+}
+
+.wallet-content .wallet-content-2 .wallet-button .wallet-btn[data-v-d7962c82] {
+	display: inline-block;
+	width: 50%
+}
+
+.wallet-content .wallet-content-2 .wallet-button .wallet-btn .wallet-btn-1[data-v-d7962c82] {
+	width: 92%
+}
+
+.wallet-content .wallet-content-2 .right[data-v-d7962c82] {
+	text-align: right;
+	text-align: -webkit-right
+}
+
+.wallet-top[data-v-d7962c82] {
+	width: 100%;
+	margin: 20px auto;
+	vertical-align: middle;
+	padding: 0 8%;
+	box-sizing: border-box
+}
+
+.wallet-top-msg[data-v-d7962c82] {
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle
+}
+
+.wallet-top-msg-2[data-v-d7962c82] {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+	font-size: 16px;
+	color: #fff;
+	text-align: right
+}
+
+.flex-line-between[data-v-d7962c82] {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 0
+}
+
+.flex-line-between-2[data-v-d7962c82] {
+	font-size: 13px
+}
+
+.tips-content[data-v-d7962c82] {
+	background: hsla(0, 0%, 87%, .4);
+	border-radius: 3px;
+	padding: 8px 13px;
+	margin-right: 10px
+}
+
+.video-content[data-v-d7962c82] {
+	position: absolute;
+	width: 95%;
+	top: 35%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	height: 54vw;
+	z-index: 999;
+	border-radius: 10px;
+	overflow: scroll;
+	box-shadow: 20px -10px 80px #ff4848
+}
+
+[data-v-d7962c82] .van-dialog__header {
+	padding-bottom: 26px;
+	font-size: 18px
+}
+
+[data-v-d7962c82] .van-button__content {
+	font-size: 18px;
+	font-weight: 600
+}
+
+[data-v-d7962c82] .ql-size-small {
+	font-size: 12px
+}
+
+[data-v-d7962c82] .ql-size-large {
+	font-size: 18px
+}
+
+[data-v-d7962c82] .ql-size-huge {
+	font-size: 32px
+}
+
+video::-webkit-media-controls-fullscreen-button {
+	display: none
+}
+
+.vjs-custom-skin>.video-js .vjs-big-play-button {
+	width: 70px !important;
+	height: 45px !important;
+	line-height: 45px !important;
+	border-radius: 5px !important;
+	font-size: 2.5em !important;
+	border: 1px solid #fff !important;
+	background: hsla(0, 0%, 87%, .6) !important;
+	top: 53%
+}
+
+.vjs-poster {
+	border-radius: 10px i !important
+}
+
+.vjs-custom-skin>.video-js .vjs-control-bar {
+	display: none !important
+}
